@@ -11,7 +11,7 @@
 </head>
 <body>
 <div>
-	<form:form action="<c:out value='/expenses/edit/${expense.id}'/>" method="post" modelAttribute="expense">
+	<form:form action="/expenses/edit/${expense.id}" method="post" modelAttribute="expense">
         <div>
             <form:label path="name">Expense Name: </form:label><br />
             <form:errors path="name"/>
